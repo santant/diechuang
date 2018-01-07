@@ -1,0 +1,299 @@
+body {
+  background: #43a047;
+}
+#hander_nav .navbar-default {
+  background: #43a047;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+#hander_nav .navbar-default .navbar-brand {
+  color: #fff;
+}
+#hander_nav .navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+#hander_nav .navbar-default .navbar-nav > li > a:hover {
+  color: #ddd;
+}
+#hander_nav .navbar-default .navbar-toggle .icon-bar {
+  background: #fff;
+}
+#hander_nav .navbar-default .navbar-toggle:hover {
+  background: #43a047;
+}
+#hander_nav .navbar-default .navbar-toggle:focus {
+  background: none;
+}
+#hander_nav .navbar-default .navbar-toggle:visited {
+  background: none;
+}
+#hander_nav .navbar-default .login_nav {
+  position: relative;
+  left: 100px;
+}
+#hander_nav .center_nav {
+  margin: 0 auto;
+  width: 340px;
+  float: initial;
+}
+#lunbo_ssr {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+#friend {
+  margin: 17px;
+  background: #fff;
+}
+#friend .div_ssr {
+  padding: 10px 6%;
+}
+#friend .div_ssr .row {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: 0;
+}
+#friend .div_ssr .row .ssr_pr {
+  border-bottom: 1px solid  #ededed;
+  border-right: 1px solid  #ededed;
+  overflow: hidden;
+  position: relative;
+}
+#friend .div_ssr .row .ssr_pr:hover i {
+  width: 100%;
+}
+#friend .div_ssr .row .ssr_pr i {
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  background: #43a047;
+  width: 0;
+}
+#friend .div_ssr .row .ssr_pr:nth-of-type(4n+4) {
+  border-right: none;
+}
+#friend .div_ssr .row a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#friend .div_ssr .row a .ssr_login {
+  width: 100%;
+  height: 155px;
+  position: relative;
+}
+#friend .div_ssr .row a .ssr_login img {
+  max-width: 90%;
+  max-height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto auto;
+}
+#friend .div_ssr .row a .ssr_login:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#friend .div_ssr .row a p {
+  text-align: center;
+  color: #c4c4c4;
+  font-size: 16px;
+  line-height: 80px;
+}
+#friend .div_ssr .row a p:hover,
+#friend .div_ssr .row a p:focus {
+  text-decoration: none;
+}
+#friend .div_ssr .row a p:invalid {
+  text-decoration: none;
+}
+.ssr_title {
+  line-height: 110px;
+  text-align: center;
+  font-size: 21px;
+  color: #333;
+}
+.ssr_title:hover {
+  cursor: pointer;
+  color: #fff;
+}
+#ssr_help {
+  position: fixed;
+  width: 70px;
+  height: 368px;
+  right: 30px;
+  bottom: 0;
+  top: 0;
+  margin: auto auto;
+}
+#ssr_help ul {
+  width: 100%;
+}
+#ssr_help ul > li {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 3px;
+  position: relative;
+}
+#ssr_help ul > li .ssr_weixin {
+  position: absolute;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#ssr_help ul > li .weixin_ssr {
+  left: -120px;
+  top: 0px;
+  display: none;
+}
+#ssr_help ul > li .weixin_ssr img {
+  width: 100px;
+}
+#ssr_help ul > li .ssr_phone {
+  display: none;
+  width: 420px;
+  height: 218px;
+  left: -430px;
+  top: -148px;
+  border-radius: 5px;
+}
+#ssr_help ul > li .ssr_phone .help_title {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 110px;
+  position: relative;
+  background: #2182e1;
+  color: #fff;
+}
+#ssr_help ul > li .ssr_phone .help_title > img {
+  position: absolute;
+  width: 66px;
+  top: -27px;
+  left: 22px;
+}
+#ssr_help ul > li .ssr_phone .help_title > ol {
+  padding-top: 18px;
+  width: 282px;
+  height: 110px;
+  float: right;
+}
+#ssr_help ul > li .ssr_phone .help_title > ol > li {
+  line-height: 38px;
+}
+#ssr_help ul > li .ssr_phone .help_phone {
+  width: 100%;
+  height: 106px;
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+  color: #333;
+}
+#ssr_help ul > li .ssr_phone .help_phone > span {
+  line-height: 70px;
+  font-size: 20px;
+  width: 100px;
+  text-align: center;
+}
+#ssr_help ul > li .ssr_phone .help_phone > div {
+  width: 282px;
+  height: 78px;
+  float: right;
+  margin-top: 18px;
+}
+#ssr_help ul > li .ssr_phone .help_phone > div > span {
+  display: block;
+  line-height: 26px;
+  font-size: 14px;
+}
+#ssr_help ul > li .ssr_phone .help_phone > div > span > i {
+  color: #2b88e2;
+}
+#ssr_help ul > li > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #1580e4;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#ssr_help ul > li > a:hover {
+  text-decoration: none;
+  background: #43a047;
+}
+#ssr_help ul > li > a:focus {
+  text-decoration: none;
+}
+#ssr_help ul > li > a > i {
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 4px;
+}
+#ssr_help ul > li > a > P {
+  color: #fff;
+  text-align: center;
+}
+@media screen and (max-width: 994px) {
+  .ssr_pr:nth-of-type(2n+2) {
+    border-right: none !important;
+  }
+  .ssr_title {
+    font-size: 12px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .center_nav {
+    margin: 0 !important;
+    width: auto !important;
+    float: left !important;
+  }
+  .center_nav > li {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .center_nav > li:hover {
+    padding-left: 10px;
+  }
+  .login_nav {
+    position: relative;
+    left: 240px !important;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  body .ssr_pr {
+    border-right: none !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .login_nav {
+    position: relative;
+    left: 80px !important;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .ssr_title span {
+    display: block;
+    text-align: center;
+  }
+  .ssr_phone {
+    -webkit-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+            transform: scale(0.5);
+    left: -332px !important;
+    top: -100px !important;
+  }
+}
