@@ -1,29 +1,29 @@
-body{
+body {
     background: #f9f9f9;
 }
 
 //Label_ssr
-.Label_ssr{
+.Label_ssr {
     width: 1200px;
     margin: 36px auto 40px;
     position: relative;
-    >img{
+    >img {
         position: absolute;
         top: 0;
         left: 0;
         width: 78px;
     }
-    .title_label{
+    .title_label {
         height: 72px;
         margin-left: 78px;
-//      
-        span{
+        //      
+        span {
             line-height: 30px;
             color: #28364a;
             font-size: 20px;
             margin-top: 5px;
         }
-        p{
+        p {
             line-height: 35px;
             color: #999;
             font-family: arial;
@@ -31,24 +31,25 @@ body{
         }
     }
 }
+
 //product
-#product{
+#product {
     width: 1200px;
     margin: 0 auto;
     overflow: hidden;
-    .nav_left{
+    .nav_left {
         width: 320px;
         float: left;
         background: #ccc;
         border: 1px solid #d1e7fa;
         box-sizing: border-box;
-        .sc_180{
-           transform:rotate(90deg);
-           top: -16px;
+        .sc_180 {
+            transform: rotate(90deg);
+            top: -16px;
         }
-        .dd_active{
+        .dd_active {
             background: #28364a;
-            >b{
+            >b {
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -56,38 +57,39 @@ body{
                 width: 3px;
                 background: #548dda;
             }
-            a{
+            a {
                 color: #fff;
                 border: none;
             }
         }
-        dl{
+        dl {
             cursor: pointer;
-           margin-bottom: 0px;
-            dt{
-               background: #fff;
-               font-size: 20px;
-               color: #28364a;
-               overflow: hidden;
-               text-indent: 30px;
-               font-weight: 500;
-               &:hover{
-                   color:#548dda;
-               }
-               >i{
-                   line-height: 58px;
-                   font-weight: 600;
+            margin-bottom: 0px;
+            dt {
+                background: #fff;
+                font-size: 20px;
+                color: #28364a;
+                overflow: hidden;
+                text-indent: 30px;
+                font-weight: 500;
+                &:hover {
+                    color: #548dda;
+                }
+                >i {
+                    line-height: 58px;
+                    font-weight: 600;
                     position: absolute;
-                    right:30px;
+                    right: 30px;
                     top: 0;
                     transition: all 0.3s;
-               }
+                }
             }
-            dd,dt{
+            dd,
+            dt {
                 line-height: 58px;
                 height: 58px;
-                position: relative; 
-                >a{
+                position: relative;
+                >a {
                     margin: 0 30px;
                     display: block;
                     border-bottom: 1px solid #ddd;
@@ -96,59 +98,60 @@ body{
                     transition: all 0.3s;
                 }
             }
-            dd{
+            dd {
                 background: #f9f9f9;
                 font-size: 14px;
                 color: #548dda;
-                &:hover >a{
-                   text-indent: 10px;
+                &:hover>a {
+                    text-indent: 10px;
                 }
             }
         }
     }
-    .conatiner_right{
+    .conatiner_right {
         width: 820px;
         float: right;
-        .title_text{
-            span{
+        .title_text {
+            span {
                 font-size: 20px;
             }
-            p{
+            p {
                 line-height: 30px;
                 font-size: 14px;
                 margin-bottom: 0;
             }
-            >img{
+            >img {
                 display: block;
-                margin:12px auto 0;
+                margin: 12px auto 0;
             }
         }
-        .msg_product{
-            >h1{
+        .msg_product {
+            margin-bottom: 30px;
+            >h1 {
                 margin: 10px auto 0;
-            font-size: 20px;
-            line-height: 46px;
-            text-align: center;
-            color: #28364a;
+                font-size: 20px;
+                line-height: 46px;
+                text-align: center;
+                color: #28364a;
             }
-            ul{
-                >li{
+            ul {
+                >li {
                     position: relative;
                     background: #fff;
                     min-height: 200px;
-                    transition: all 0.8s; 
-                    &:hover{
-                        box-shadow:#ccc  2px 2px 20px;
+                    transition: all 0.8s;
+                    &:hover {
+                        box-shadow: #ccc 2px 2px 20px;
                         top: -4px;
                         transform: scale(1.01);
                     }
-                    .img_pr{
+                    .img_pr {
                         width: 300px;
                         height: 200px;
                         position: absolute;
                         left: 0;
                         top: 0;
-                        >img{
+                        >img {
                             max-height: 100%;
                             max-width: 100%;
                             position: absolute;
@@ -159,21 +162,102 @@ body{
                             margin: auto auto;
                         }
                     }
-                    .text_details{
+                    .text_details {
                         width: 520px;
                         margin-left: 310px;
-                        span{
+                        span {
                             font-size: 18px;
                             color: #28364a;
                             line-height: 40px;
                             margin-top: 10px;
                         }
-                        p{
+                        p {
                             font-size: 14px;
                             color: #666;
                             line-height: 32px;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+//成功案例
+.SuccessCase {
+    ol {
+        li {
+            position: relative;
+            overflow: hidden;
+            margin-top: 50px;
+            .case_img {
+                transition: all 0.3s;
+                width: 400px;
+                height: 268px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                box-shadow: #999 5px 5px 20px;
+                >img {
+                    position: absolute;
+                    margin: auto auto;
+                    max-width: 100%;
+                    max-height: 100%;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                }
+            }
+            .case_msg {
+                transition: all 0.3s;
+                background: #fff;
+                width: 481px;
+                min-height: 288px;
+                margin-left: 340px;
+                padding-left: 90px;
+                padding-right: 40px;
+                border: 2px solid #d1e7fa;
+                margin-top: 40px;
+                span {
+                    font-size: 18px;
+                    color: #28364a;
+                    line-height: 40px;
+                    padding-top: 20px;
+                }
+                p {
+                    font-size: 14px;
+                    color: #666;
+                    line-height: 32px;
+                }
+            }
+            &:hover {
+                .case_img {
+                    top: 50px;
+                }
+                .case_msg {
+                    margin-top: 0px;
+                    margin-bottom: 50px;
+                }
+            }
+            &:nth-last-child(2n+2) {
+                &:hover {
+                    .case_msg {
+                        margin-top: 50px;
+                    }
+                    .case_img {
+                        top: 0px;
+                    }
+                }
+                .case_msg {
+                    margin: 0;
+                    margin-bottom: 50px;
+                    padding-left: 40px;
+                    padding-right: 80px;
+                }
+                .case_img {
+                    top: 50px;
+                    left: 420px;
                 }
             }
         }
