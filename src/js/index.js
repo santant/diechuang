@@ -17,4 +17,15 @@ $(function(){
 	$(".login_nav").on("mouseout",function(){
 		$(this).removeClass("flip")
 	})
+	
+	
+	//产品和方案js
+	$("#product .nav_left dl").click(function(){
+		$(this).find("dd").slideToggle()
+		$(this).find("i").toggleClass("sc_180")
+	})
+	$("#product .nav_left dl dd").hover(function(){
+		$(".dd_active").removeClass("dd_active")
+		$(this).toggleClass("dd_active")
+	})
 })

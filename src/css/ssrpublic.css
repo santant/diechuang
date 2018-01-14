@@ -1,7 +1,3 @@
-body {
-  background: #fff;
-  font-size: "微软雅黑";
-}
 #hander_nav .navbar-default {
   border: none;
   border-radius: 0;
@@ -65,96 +61,6 @@ body {
   margin: 0 auto;
   width: 420px;
   float: initial;
-}
-#lunbo_ssr {
-  width: 100%;
-  display: block;
-  height: auto;
-}
-#friend {
-  margin: 17px;
-  background: #fff;
-}
-#friend .div_ssr {
-  padding: 10px 6%;
-}
-#friend .div_ssr .row {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  margin: 0;
-}
-#friend .div_ssr .row .ssr_pr {
-  border-bottom: 1px solid  #ededed;
-  border-right: 1px solid  #ededed;
-  overflow: hidden;
-  position: relative;
-}
-#friend .div_ssr .row .ssr_pr:hover i {
-  width: 100%;
-}
-#friend .div_ssr .row .ssr_pr i {
-  -webkit-transition: all ease-in 0.3s;
-  transition: all ease-in 0.3s;
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  background: #43a047;
-  width: 0;
-}
-#friend .div_ssr .row .ssr_pr:nth-of-type(4n+4) {
-  border-right: none;
-}
-#friend .div_ssr .row a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-#friend .div_ssr .row a .ssr_login {
-  width: 100%;
-  height: 155px;
-  position: relative;
-}
-#friend .div_ssr .row a .ssr_login img {
-  max-width: 90%;
-  max-height: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto auto;
-}
-#friend .div_ssr .row a .ssr_login:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-#friend .div_ssr .row a p {
-  text-align: center;
-  color: #c4c4c4;
-  font-size: 16px;
-  line-height: 80px;
-}
-#friend .div_ssr .row a p:hover,
-#friend .div_ssr .row a p:focus {
-  text-decoration: none;
-}
-#friend .div_ssr .row a p:invalid {
-  text-decoration: none;
-}
-.ssr_title {
-  line-height: 110px;
-  text-align: center;
-  font-size: 21px;
-  color: #333;
-}
-.ssr_title:hover {
-  cursor: pointer;
-  color: #fff;
 }
 #ssr_help {
   position: fixed;
