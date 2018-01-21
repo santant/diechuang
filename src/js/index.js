@@ -28,4 +28,7 @@ $(function(){
 		$(".dd_active").removeClass("dd_active")
 		$(this).toggleClass("dd_active")
 	})
+	
+	
+	
 })
